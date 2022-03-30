@@ -1,0 +1,38 @@
+html{
+    color:  rgba(150, 0, 180, 0.5);
+    background-color: rgba(150, 187, 187, 0.5);
+    background-image: url("./cachorro-livro.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+@font-face {
+    font-family: alexbursh;
+    src: url('AlexBrush-Regular.ttf');
+}
+main p{
+    text-indent: 2rem;
+}
+
+main{
+    font-family: 'alexbrush', cursive;
+}
+h2#titulo-primeira-aula {
+    letter-spacing: 9px;
+}
+a:active{
+    color: rgb(0, 225, 255);
+    cursor: cell;
+}
+a:visited{
+    color: deeppink;
+}
+
+h2{
+    cursor: pointer;
+}
+
+h2:hover {
+    display: none;
+}
