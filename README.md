@@ -1,9 +1,5 @@
 <img align="center" width="500" src="https://github.com/Paulo-Ultra/Programa-Start-Capgemini/blob/main/logo.png" style="max-width:200%;">
 
-<h1 align="center">
-START BY CAPGEMINI
-</h1>
-
 <h3 align="center"> ⚙️
 START BY CAPGEMINI
 
