@@ -1,5 +1,4 @@
-<img align="center" width="500" src="https://github.com/Paulo-Ultra/Desafio-Capgemini-2022/blob/main/logo-capgemini.png" style="max-width:200%;">
-     </a>
+<img align="center" width="500" src="https://github.com/Paulo-Ultra/Programa-Start-Capgemini/blob/main/logo.png" style="max-width:200%;">
 
 <h1 align="center">
 START BY CAPGEMINI
