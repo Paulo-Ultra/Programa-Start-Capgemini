@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor HTML</title>
+    <!--JS-->
+    <script>
+
+        function acao(){
+
+            //Variável
+            // var texto = document.getElementsByTagName("h1")[0];
+            var texto = document.getElementsByTagName("h1")[1];
+            var texto = document.getElementsByTagName("h1")[2];
+
+            //Exibir o conteúdo do H1
+            alert(texto.innerHTML);
+
+        }
+
+    </script>
+</head>
+<body>
+    
+    <button onclick="acao()">Selecionar</button>
+    <h1>Proway</h1>
+    <h1>Seletores JS</h1>
+    <h1>Curso Proway</h1>
+
+</body>
+</html>
