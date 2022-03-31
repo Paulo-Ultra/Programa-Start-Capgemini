@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slide - jQuery</title>
+        <!--jQuery-->
+        <script src="jquery-3.6.0.min.js"></script>
+
+        <!---Script-->
+        <script>
+
+            //Ao carregar o documento
+            $(document).ready(function(){
+                
+                //Ocultar
+                $(".ocultar").click(function(){
+                    $(".mensagem").slideUp(2000);
+                });
+
+                //Exibir
+                $(".exibir").click(function(){
+                    $(".mensagem").slideDown(1500);
+                });
+            });
+
+        </script>
+    </head>
+    <body>
+    
+        <h1 class="exibir">Exibir</h1>
+        <h1 class="ocultar">Ocultar</h1>
+        <hr>
+        <h1 class="mensagem">Olá</h1>
+
+    </body>
+</html>
