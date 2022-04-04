@@ -1,0 +1,31 @@
+<input type="button" value="Enviar" (click)="this.acaoNgIf()">
+
+<h1 *ngIf="this.exibirTexto">Aprendendo Angular na Proway</h1>
+
+<hr>
+
+<ul *ngFor="let curso of cursos; let indice = index">
+  <li>{{indice}} {{curso}}</li>
+</ul>
+
+<hr>
+
+<div [ngSwitch]="curso_selecionado">
+    <div *ngSwitchCase="cursos[0]">HTML & CSS</div>
+    <div *ngSwitchCase="cursos[1]">PHP Básico</div>
+    <div *ngSwitchCase="cursos[2]">PHP Avançado</div>
+    <div *ngSwitchCase="cursos[3]">Angular</div>
+</div>
+
+<hr>
+
+<style>
+  .ligada{
+    color: green;
+  }
+  .desligada{
+    color: red;
+  }
+</style>
+
+<div [ngClass]="{'ligada':ligada, 'desligada':!ligada}">Lâmpada</div>
