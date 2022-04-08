@@ -1,0 +1,74 @@
+// $blue: lightblue;
+// $background: rgb(51, 16, 16);
+
+// body{
+//     background-color: $background;
+// }
+
+// .drop-shadow{
+//     text-shadow: 2px 1px 1px #ccc;
+//     text-decoration: underline;
+// }
+
+// h1{
+//     color: $blue;
+// }
+
+// p{
+//     color: $blue;
+// }
+
+@import '_base', 'formatacaotxt';
+
+$cor: lightblue;
+$cor2: lightgray;
+$background: #e4dede;
+$tamanho: 17px;
+
+@mixin fundoP($color) {
+    background-color: $color;
+}
+
+body{
+    @include fundoP($background);
+    @if ($background == grey){
+        color: #{$cor2};
+        font-size: #{$tamanho*1px};
+    } else {
+        color: darkblue;
+        background-color: lightcoral;
+    }
+        margin: 10%;
+}
+
+.sombra{
+    text-shadow: 2px 1px 1px #ccc;
+    text-decoration: underline;
+    color: $cor;
+}
+
+h1{
+    color: $cor;
+}
+
+div p{
+    background-color: rgb(158, 250, 135);
+}
+
+p{
+    background-color: lightskyblue;
+    b{
+        color: rgb(0, 110, 255);
+    }
+}
+
+$corDiv: red;
+$tamanho2: 10px;
+
+@for $i from i through 3 {
+    $nome: 'div' + $i;
+    #{$nome} {
+        font-size: $tamanho2 + ($i * 4);
+        background-color: lighten($corDiv, $i * 10%);
+    }
+}

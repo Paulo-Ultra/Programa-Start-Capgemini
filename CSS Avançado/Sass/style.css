@@ -1,0 +1,47 @@
+.sombra {
+  text-shadow: 2px 1px 1px #ccc;
+  text-decoration: underline;
+  color: lightblue;
+}
+
+h1 {
+  color: lightblue;
+}
+
+a {
+  color: white;
+  background-color: lime;
+}
+
+body {
+  background-color: #e4dede;
+  margin: 10%;
+}
+
+body else {
+  color: darkblue;
+  background-color: lightcoral;
+}
+
+.sombra {
+  text-shadow: 2px 1px 1px #ccc;
+  text-decoration: underline;
+  color: lightblue;
+}
+
+h1 {
+  color: lightblue;
+}
+
+div p {
+  background-color: #9efa87;
+}
+
+p {
+  background-color: lightskyblue;
+}
+
+p b {
+  color: #006eff;
+}
+/*# sourceMappingURL=style.css.map */
