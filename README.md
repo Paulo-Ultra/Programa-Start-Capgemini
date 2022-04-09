@@ -62,6 +62,8 @@ CONTEÚDO DO PROGRAMA:
 - [Lógica de Programação Java](https://github.com/Paulo-Ultra/Programa-Start-Capgemini/tree/main/Linguagem%20de%20Programa%C3%A7%C3%A3o%20Java)
 - [JavaScript, jQuery e Ajax](https://github.com/Paulo-Ultra/Programa-Start-Capgemini/tree/main/JavaScript)
 - [Angular](https://github.com/Paulo-Ultra/Programa-Start-Capgemini/tree/main/Angular)
+- [Criando APIS com Angular](https://github.com/Paulo-Ultra/Programa-Start-Capgemini/tree/main/Criando%20APIs%20com%20Angular)
+- [CSS Avançado](https://github.com/Paulo-Ultra/Programa-Start-Capgemini/tree/main/CSS%20Avan%C3%A7ado)
 
 
 
